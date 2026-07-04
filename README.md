@@ -72,13 +72,13 @@ Inventory-Automation/
 
 The project automatically generates:
 
-Cleaned Excel files
-Inventory data
-Low stock report
-Category-wise stock summary
-Inventory report in Excel
-MySQL database table
-Archived source files
+- Cleaned Excel files
+- Inventory data
+- Low stock report
+- Category-wise stock summary
+- Inventory report in Excel
+- MySQL database table
+- Archived source files
 
 ## Author
 
