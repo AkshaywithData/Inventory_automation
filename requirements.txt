@@ -1,0 +1,17 @@
+for Project work required libraries are,
+
+- pandas
+- numpy
+- matplotlib
+- openpyxl
+- pymysql
+- sqlalchemy
+
+
+Versions we are using,
+- pandas==3.0.0
+- numpy==2.4.1
+- matplotlib==3.10.8
+- openpyxl==3.1.5
+- pymysql==1.1.2
+- sqlalchemy==2.0.49
