@@ -66,27 +66,27 @@ Excel Source Files
 
 3. Configure your database credentials in .env.
 
- For security reasons, the .env file containing database credentials is not included in the project.
+   For security reasons, the .env file containing database credentials is not included in the project.
 
- Create a file named .env in the project root, next to Inventory_automation.py.
+   Create a file named .env in the project root, next to Inventory_automation.py.
 
- Add your MySQL credentials:
+   Add your MySQL credentials:
 
-- DB_USER=root
-- DB_PASSWORD=your_mysql_password
-- DB_HOST=localhost
-- DB_NAME=inventory_db
+   - DB_USER=root
+   - DB_PASSWORD=your_mysql_password
+   - DB_HOST=localhost
+   - DB_NAME=inventory_db
 
- Replace the values with your own database details.
+   Replace the values with your own database details.
 
 4. Create the MySQL database.
 
- Open MySQL and run:
+   Open MySQL and run:
 
- CREATE DATABASE inventory_db;
+   CREATE DATABASE inventory_db;
 
 5. Run the project:
-   Inventory_automation.py
+      Inventory_automation.py
 
 
 ## Project Structure
