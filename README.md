@@ -1,52 +1,82 @@
-# Inventory automation
+# Inventory Automation
 
 ## Project Overview
 
-This project shows complete inventory automation process
+This project demonstrates a complete inventory automation process.
 
-- reads multiple excel files
-- cleans data
-- remove duplecate records
-- fill missing stock values
-- Standardize category names
-- generate charts and kpis
-- archive processed month files
-- saves cleaned reports in excel sheets
-- saves data to Mysql
-
-
+- Reads multiple excel files
+- Cleans inventory data
+- Removes duplicate records
+- Handles missing stock values
+- Standardizes category names
+- Calculates inventory value
+- Generates inventory KPIs and charts
+- Archives processed source files
+- Generates Excel reports
+- Loads processed data into MySQL
 
 
 ## Technologies used
 
-- pyhton
-- pandas
-- glob
-- shutil
-- matplotlib
-- os
-- sqlalchemy
-- logging
-- pymysql
+- Python
+- Pandas
+- Glob
+- Shutil
+- Matplotlib
+- Os
+- SQLAlchemy
+- Logging
+- PyMySQL
+- Python-dotenv
+
+
+## Automation workflow
+```
+Excel Source Files
+        ↓
+     Read Excel
+        ↓
+    Clean Data
+        ↓
+ Remove Duplicates
+        ↓
+ Handle Missing Stock
+        ↓
+ Standardize Categories
+        ↓
+ Calculate Inventory Value
+        ↓
+     KPIs
+        ↓
+     Graphs
+        ↓
+   Excel Report
+        ↓
+      MySQL
+```
 
 
 ## How to Run
 
 1. Place Excel files in the `Data/Source` folder.
+
 2. Install the required libraries:
-   ```bash
-   pip install pandas numpy openpyxl matplotlib sqlalchemy 
-   ```
-3. Run the project:
-   ```bash
+   pip install -r requirements.txt
+
+3. Configure your database credentials in '.env'.
+
+4. Run the project:
   Inventory_automation.py
-   ```
+
 
 ## Project Structure
 
-```text
+```
 Inventory-Automation/
 │
+├── LICENSE
+├── .env.example
+├── .gitignore
 ├── Inventory_Automation.py
 ├── README.md
 ├── requirements.txt
@@ -56,15 +86,15 @@ Inventory-Automation/
 │   ├── Inventory_dashboard.png
 │   ├── Excel_report.png
 │   └── Mysql_table.png
-├
-│── Data/
+│
+├── Data/
 │   ├── Source/
 │   ├── clean_files/
 │   └── archive/
 │  
 └── Final Reports/
     ├── Charts/
-    │   └── inventory_dastboard.png
+    │   └── inventory_dashboard.png
     └── Inventory_Report.xlsx       
 ```
 
@@ -79,6 +109,15 @@ The project automatically generates:
 - Inventory report in Excel
 - MySQL database table
 - Archived source files
+
+## Future Improvement
+
+- Improve logging and error handling
+- Add configuration file for customizable settings
+- Add SQL-based inventory analysis
+- Add automated scheduling
+- Add low-stock email notifications 
+- Add API integration
 
 ## Author
 

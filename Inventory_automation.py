@@ -6,6 +6,9 @@ import glob
 import numpy as np
 from sqlalchemy import create_engine
 import logging
+from dotenv import load_dotenv
+
+load_dotenv() 
 
 logging.basicConfig(
     filename = "inventory.log", 
@@ -75,13 +78,16 @@ def generate_kpis_charts():
     "Low Stock Products": len(low_stock),
     "Total Categories": final_df["Category"].nunique()
     }
- 
+
+    os.makedirs("Final Report/Charts", exist_ok=True)
+
     plt.figure(figsize=(12,5))
 
     plt.subplot(1,2,1)
 
     plt.bar(category_stock.index,
             category_stock.values)
+    
 
     plt.title("Category Stock")
 
@@ -94,8 +100,6 @@ def generate_kpis_charts():
 
     plt.tight_layout()
 
-    os.makedirs("Final Report/Charts", exist_ok=True)
-
     plt.savefig("Final Report/Charts/inventory_dashboard.png", dpi=300, bbox_inches="tight")
     plt.close()
 
@@ -107,7 +111,7 @@ def generate_excel(final_df, low_stock, category_stock, kpi):
 
     os.makedirs("Final Report", exist_ok=True)
 
-    kpi_df = pd.DataFrame(list(kpi.items()),columns=["KPI", "Value"])
+    kpi_df = pd.DataFrame(list(kpi.items()),columns=["KPI", "Value"])       
 
     with pd.ExcelWriter("Final Report/Inventory_report.xlsx") as writer:
 
@@ -123,7 +127,14 @@ def generate_excel(final_df, low_stock, category_stock, kpi):
 
 def savein_sql(final_df):
 
-    engine = create_engine("mysql+pymysql://root:akshayak47@localhost/inventory_db")    
+    DB_USER = os.getenv("DB_USER")
+    DB_PASSWORD = os.getenv("DB_PASSWORD")
+    DB_HOST = os.getenv("DB_HOST")
+    DB_NAME = os.getenv("DB_NAME")
+
+    engine = create_engine(
+    f"mysql+pymysql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}"
+    )  
 
     final_df.to_sql("inventory_stock", engine, if_exists="replace", index=False)
 

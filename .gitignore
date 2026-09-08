@@ -1,0 +1,31 @@
+# Environment variables / secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated logs
+inventory.log
+
+# Generated cleaned files
+Data/clean_files/
+
+# Generated reports
+Final Reports/Inventory_Report.xlsx
+
+# Generated charts
+Final Reports/Charts/
+
+# Temporary Excel files
+~$*
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

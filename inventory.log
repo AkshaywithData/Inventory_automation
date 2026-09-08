@@ -1,44 +1,22 @@
-2026-07-04 19:37:57,588 - INFO - Cleaning started for Data/Source\feb.xlsx
-2026-07-04 19:37:57,972 - INFO - Cleaning completed for Data/Source\feb.xlsx
-2026-07-04 19:37:58,045 - INFO - Saved cleaned file: Data/clean_files\feb_new.xlsx
-2026-07-04 19:37:58,045 - INFO - Cleaning started for Data/Source\jan.xlsx
-2026-07-04 19:37:58,050 - INFO - Cleaning completed for Data/Source\jan.xlsx
-2026-07-04 19:37:58,063 - INFO - Saved cleaned file: Data/clean_files\jan_new.xlsx
-2026-07-04 19:37:58,063 - INFO - Generating KPIs and charts
-2026-07-04 19:37:58,618 - INFO - Charts and kpis generated successfully
-2026-07-04 19:37:58,640 - INFO - Excel report created successfully
-2026-07-04 19:37:59,121 - INFO - Data loaded into MySQL successfully
-2026-07-04 19:37:59,122 - INFO - All files processed
-2026-07-04 19:38:35,573 - INFO - Cleaning started for Data/Source\feb.xlsx
-2026-07-04 19:38:35,761 - INFO - Cleaning completed for Data/Source\feb.xlsx
-2026-07-04 19:38:35,805 - INFO - Saved cleaned file: Data/clean_files\feb_new.xlsx
-2026-07-04 19:38:35,805 - INFO - Cleaning started for Data/Source\jan.xlsx
-2026-07-04 19:38:35,811 - INFO - Cleaning completed for Data/Source\jan.xlsx
-2026-07-04 19:38:35,822 - INFO - Saved cleaned file: Data/clean_files\jan_new.xlsx
-2026-07-04 19:38:35,822 - INFO - Generating KPIs and charts
-2026-07-04 19:38:36,194 - INFO - Charts and kpis generated successfully
-2026-07-04 19:38:36,215 - INFO - Excel report created successfully
-2026-07-04 19:38:36,323 - INFO - Data loaded into MySQL successfully
-2026-07-04 19:38:36,323 - INFO - All files processed
-2026-07-04 20:25:39,105 - INFO - Cleaning started for Data/Source\feb.xlsx
-2026-07-04 20:25:39,387 - INFO - Cleaning completed for Data/Source\feb.xlsx
-2026-07-04 20:25:39,444 - INFO - Saved cleaned file: Data/clean_files\feb_new.xlsx
-2026-07-04 20:25:39,444 - INFO - Cleaning started for Data/Source\jan.xlsx
-2026-07-04 20:25:39,450 - INFO - Cleaning completed for Data/Source\jan.xlsx
-2026-07-04 20:25:39,461 - INFO - Saved cleaned file: Data/clean_files\jan_new.xlsx
-2026-07-04 20:25:39,461 - INFO - Generating KPIs and charts
-2026-07-04 20:25:39,927 - INFO - Charts and kpis generated successfully
-2026-07-04 20:25:39,954 - INFO - Excel report created successfully
-2026-07-04 20:25:40,145 - INFO - Data loaded into MySQL successfully
-2026-07-04 20:25:40,145 - INFO - All files processed
-2026-07-04 20:26:03,782 - INFO - Cleaning started for Data/Source\feb.xlsx
-2026-07-04 20:26:03,968 - INFO - Cleaning completed for Data/Source\feb.xlsx
-2026-07-04 20:26:04,011 - INFO - Saved cleaned file: Data/clean_files\feb_new.xlsx
-2026-07-04 20:26:04,011 - INFO - Cleaning started for Data/Source\jan.xlsx
-2026-07-04 20:26:04,016 - INFO - Cleaning completed for Data/Source\jan.xlsx
-2026-07-04 20:26:04,028 - INFO - Saved cleaned file: Data/clean_files\jan_new.xlsx
-2026-07-04 20:26:04,028 - INFO - Generating KPIs and charts
-2026-07-04 20:26:04,394 - INFO - Charts and kpis generated successfully
-2026-07-04 20:26:04,418 - INFO - Excel report created successfully
-2026-07-04 20:26:04,528 - INFO - Data loaded into MySQL successfully
-2026-07-04 20:26:04,528 - INFO - All files processed
+2026-09-07 23:49:11,796 - INFO - Cleaning started for Data/Source\feb.xlsx
+2026-09-07 23:49:12,177 - INFO - Cleaning completed for Data/Source\feb.xlsx
+2026-09-07 23:49:12,254 - INFO - Saved cleaned file: Data/clean_files\feb_new.xlsx
+2026-09-07 23:49:12,254 - INFO - Cleaning started for Data/Source\jan.xlsx
+2026-09-07 23:49:12,260 - INFO - Cleaning completed for Data/Source\jan.xlsx
+2026-09-07 23:49:12,273 - INFO - Saved cleaned file: Data/clean_files\jan_new.xlsx
+2026-09-07 23:49:12,274 - INFO - Generating KPIs and charts
+2026-09-07 23:49:12,903 - INFO - Charts and kpis generated successfully
+2026-09-07 23:49:12,930 - INFO - Excel report created successfully
+2026-09-07 23:49:13,262 - INFO - Data loaded into MySQL successfully
+2026-09-07 23:49:13,262 - INFO - All files processed
+2026-09-08 20:27:23,229 - INFO - Cleaning started for Data/Source\feb.xlsx
+2026-09-08 20:27:23,572 - INFO - Cleaning completed for Data/Source\feb.xlsx
+2026-09-08 20:27:23,648 - INFO - Saved cleaned file: Data/clean_files\feb_new.xlsx
+2026-09-08 20:27:23,648 - INFO - Cleaning started for Data/Source\jan.xlsx
+2026-09-08 20:27:23,654 - INFO - Cleaning completed for Data/Source\jan.xlsx
+2026-09-08 20:27:23,667 - INFO - Saved cleaned file: Data/clean_files\jan_new.xlsx
+2026-09-08 20:27:23,667 - INFO - Generating KPIs and charts
+2026-09-08 20:27:24,213 - INFO - Charts and kpis generated successfully
+2026-09-08 20:27:24,236 - INFO - Excel report created successfully
+2026-09-08 20:27:24,777 - INFO - Data loaded into MySQL successfully
+2026-09-08 20:27:24,777 - INFO - All files processed
