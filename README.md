@@ -64,8 +64,7 @@ Excel Source Files
 ``` bash
    pip install -r requirements.txt
 
-3. Configure your database credentials in .env.
-
+3. Configure your database credentials in '.env'.
    For security reasons, the .env file containing database credentials is not included in the project.
 
    Create a file named .env in the project root, next to Inventory_automation.py.
