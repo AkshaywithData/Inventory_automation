@@ -72,10 +72,10 @@ Excel Source Files
 
  Add your MySQL credentials:
 
- DB_USER=root
- DB_PASSWORD=your_mysql_password
- DB_HOST=localhost
- DB_NAME=inventory_db
+- DB_USER=root
+- DB_PASSWORD=your_mysql_password
+- DB_HOST=localhost
+- DB_NAME=inventory_db
 
  Replace the values with your own database details.
 
