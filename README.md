@@ -63,6 +63,7 @@ Excel Source Files
 2. Install the required libraries:
 ``` bash
    pip install -r requirements.txt
+```
 
 3. Configure your database credentials in '.env'.
    For security reasons, the .env file containing database credentials is not included in the project.
@@ -85,8 +86,8 @@ Excel Source Files
    CREATE DATABASE inventory_db;
 
 5. Run the project:
+
       Inventory_automation.py
-```
 
 
 ## Project Structure
