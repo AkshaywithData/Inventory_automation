@@ -61,7 +61,7 @@ Excel Source Files
 1. Place Excel files in the `Data/Source` folder.
 
 2. Install the required libraries:
-
+``` bash
    pip install -r requirements.txt
 
 3. Configure your database credentials in .env.
@@ -87,6 +87,7 @@ Excel Source Files
 
 5. Run the project:
       Inventory_automation.py
+```
 
 
 ## Project Structure
