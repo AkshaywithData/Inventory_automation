@@ -19,6 +19,7 @@ This project demonstrates a complete inventory automation process.
 ## Technologies used
 
 - Python
+- Numpy
 - Pandas
 - Glob
 - Shutil

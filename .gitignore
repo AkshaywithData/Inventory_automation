@@ -15,10 +15,10 @@ inventory.log
 Data/clean_files/
 
 # Generated reports
-Final Reports/Inventory_Report.xlsx
+Final Report/Inventory_Report.xlsx
 
 # Generated charts
-Final Reports/Charts/
+Final Report/Charts/
 
 # Temporary Excel files
 ~$*
