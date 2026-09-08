@@ -96,7 +96,7 @@ Excel Source Files
 Inventory-Automation/
 │
 ├── LICENSE
-├── .env.example
+├── .env
 ├── .gitignore
 ├── Inventory_Automation.py
 ├── README.md
@@ -113,7 +113,7 @@ Inventory-Automation/
 │   ├── clean_files/
 │   └── archive/
 │  
-└── Final Reports/
+└── Final Report/
     ├── Charts/
     │   └── inventory_dashboard.png
     └── Inventory_Report.xlsx       
