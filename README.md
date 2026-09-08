@@ -61,12 +61,32 @@ Excel Source Files
 1. Place Excel files in the `Data/Source` folder.
 
 2. Install the required libraries:
+
    pip install -r requirements.txt
 
-3. Configure your database credentials in '.env'.
+3. Configure your database credentials in .env.
 
-4. Run the project:
-  Inventory_automation.py
+ For security reasons, the .env file containing database credentials is not included in the project.
+
+ Create a file named .env in the project root, next to Inventory_automation.py.
+
+ Add your MySQL credentials:
+
+ DB_USER=root
+ DB_PASSWORD=your_mysql_password
+ DB_HOST=localhost
+ DB_NAME=inventory_db
+
+ Replace the values with your own database details.
+
+4. Create the MySQL database.
+
+ Open MySQL and run:
+
+ CREATE DATABASE inventory_db;
+
+5. Run the project:
+   Inventory_automation.py
 
 
 ## Project Structure
